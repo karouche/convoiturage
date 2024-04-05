@@ -1,0 +1,56 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">  
+  <title>Account Recovery Page</title>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+  <link rel="stylesheet" type="text/css" href="styles.css">   
+</head>
+
+<body translate="no">
+  <!-- Form-->
+<div class="form">
+  <div class="form-toggle"></div>
+  <div class="form-panel-recovery">
+    <div class="form-header">
+      <div class="title">		
+		<h2>Account recovery</h2>
+		<h4>Enter your E-mail address </h4>
+		</div>		
+    </div>
+    <div class="form-content">
+      <form>
+        <div class="form-group">
+          <label for="username">ADRESSE e-MAIL</label>
+          <input type="text" id="username" name="username" required="required">
+        </div>  
+        <div class="box">
+          <a href="#popup-box">Send password reset email</a>      
+      </div>             
+      </form>
+    </div>
+ 
+  
+  <div id="popup-box" class="modal">
+      <div class="content">          
+          <p>A request has been received to reset you password </p>
+          <a
+              href="#"
+              style="
+                  position: absolute;
+                  top: 10px;
+                  right: 10px;
+                  color: #fe0606;
+                  font-size: 30px;
+                  text-decoration: none;
+              "
+              >&times;</a
+          >
+      </div>
+  </div>
+
+  <div class="form-text">          
+    <a class="form-recovery" href="index.html">Retour à la connexion </a>
+   </div>
+
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,36 @@
+.message-title{    
+    position: absolute;
+    top: 5px;
+    left: 37%;
+    font-size: 2em;
+}
+
+.div-header img {
+    width: 100%;
+}
+
+div .float {
+    float: left;
+}
+
+.messages {
+    border-bottom: 1px solid grey;
+    height: 20%;
+    margin-top: 5px;
+}
+
+.message {
+    margin-left: 30px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.previous {
+    width: 5%;
+    position: absolute;
+    top: 9%;
+    left: 7%;
+}

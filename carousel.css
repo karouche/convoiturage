@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  html,
+  body {
+	width: 99.8vw;
+	height: 99.8vh;	
+	font-size: 16px;
+  }
+
+  body {
+	margin: 0;		
+	color: #fff;
+	font-family: sans-serif;	
+	align-items: center;
+	min-height: 100vh;	 
+	background: #FFF;
+ }
+  
+  body {
+	display: flex;
+	align-items: center;
+  }
+  
+
+.carousel input {
+	position: absolute;
+	left: -10000px;
+  }
+  
+  .carousel {
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+  }
+  
+  .carousel__stage {
+	overflow: hidden;
+	font-size: 0;
+	white-space: nowrap;
+	width: 100%;
+	height: 100%;
+	transition: text-indent 500ms;
+	position: relative;
+  }
+  
+  .carousel__item {
+	display: inline-block;
+	text-indent: 0;
+	width: 100%;
+	height: 100%;
+  }
+  
+  .carousel__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .carousel__control {
+	display: none;
+	position: absolute;
+	top: 45%;
+	color: #fff;
+	background: rgba(0, 0, 0, .5);
+	z-index: 1;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 20px;
+	cursor: pointer;
+  }
+  
+  .carousel__prev {
+	left: 0;
+  }
+  
+  .carousel__prev::after {
+	content: ' << ';
+	display: inline-block;
+  }
+  
+  .carousel__next {
+	right: 0;
+  }
+  
+  .carousel__next::after {
+	content: ' >> ';
+	display: inline-block;
+  }
+  
+  #carousel1:checked ~ .carousel__stage {
+	text-indent: 0;
+  }
+  
+  #carousel2:checked ~ .carousel__stage {
+	text-indent: -100%;
+  }
+  
+  #carousel3:checked ~ .carousel__stage {
+	text-indent: -200%;
+  }
+  
+  #carousel4:checked ~ .carousel__stage {
+	text-indent: -300%;
+  }
+  
+  #carousel1:checked ~ .carousel__stage .carousel__item:nth-child(1) .carousel__control,
+  #carousel2:checked ~ .carousel__stage .carousel__item:nth-child(2) .carousel__control,
+  #carousel3:checked ~ .carousel__stage .carousel__item:nth-child(3) .carousel__control,
+  #carousel4:checked ~ .carousel__stage .carousel__item:nth-child(4) .carousel__control, 
+  #carousel5:checked ~ .carousel__stage .carousel__item:nth-child(5) .carousel__control  
+  {
+	display: block;
+  }
+  
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;  
+  height: 0%;
+}
+
+.search-bar  {
+	position: absolute;
+    top: 10%;
+    left: 10%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.image-shop {	
+	position: absolute;	
+	top: 55%;
+    left: 20%;
+}
+
+.image-shop img{
+	height: 260px;
+	border: 1px solid #FFF;
+	border-radius: 30px;
+}
+
+.search-bar input {
+	outline: none;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: inherit;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    height: 45px;
+    width: 300px;
+}
+
+div.iframe-panel {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/colmar.png);
+    position: absolute;
+    top: 0;
+}
+
+.image-icon {
+	position: absolute;
+	top: 30%;
+	left: 45%;
+}
+
+.image-icon img {
+	width: 50px;;
+}
+
+.previous {
+  width: 5%;
+  position: absolute;
+  top: 4%;
+  left: 7%;
+}

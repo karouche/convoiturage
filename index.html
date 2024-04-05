@@ -1,0 +1,68 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">  
+  <title>Account Recovery Page</title>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+  <link rel="stylesheet" type="text/css" href="styles.css">   
+</head>
+
+<body translate="no">
+
+  <div class="caddy">
+    <img src="images/caddy.png" alt="caddy">
+  </div>
+  <!-- Form-->
+<div class="form">
+
+  <div class="form-toggle"></div>
+  <div class="form-panel-recovery">
+    <div class="form-header">
+      <div class="title">		
+        <h2>Se Connecter</h2>
+        <h4>connecter vous pour continuer</h4>       
+		</div>		
+    </div>
+    <div class="form-content">
+      <form>
+        <div class="form-group">
+          <label for="username">ADRESSE e-MAIL</label>
+          <input type="text" id="username" name="username" required="required">
+        </div>  
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required="required">
+        </div>  
+        <div class="box">
+          <a class="form-button" href="shop_preview.html">Se connecter</a>	
+      </div>             
+      </form>
+    </div>
+ 
+  
+  <div id="popup-box" class="modal">
+      <div class="content">          
+          <p>A request has been received to reset you password </p>
+          <a
+              href="#"
+              style="
+                  position: absolute;
+                  top: 10px;
+                  right: 10px;
+                  color: #fe0606;
+                  font-size: 30px;
+                  text-decoration: none;
+              "
+              >&times;</a
+          >
+      </div>
+  </div>
+
+   <div class="form-text">          
+    <a class="form-recovery" href="recover_account.html">Mot de passe oublié ? </a>
+      </div>
+   <div class="form-text">          
+    <a class="form-recovery" href="account_new.html">S'inscrire?</a>		  
+     </div>
+
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(190, 187, 187);
+}
+
+.message-title {
+   position: absolute;
+   top: 5px;
+   left: 37%;
+   font-size: 2em;
+}
+
+.div-header {
+    background-color: white;
+}
+
+.div-header img {
+    width: 100%;
+}
+
+div .float {
+   float: left;
+}
+
+.messages {
+   height: 25%;
+   margin-top: 5px;
+   background-color: white;
+}
+
+.message {
+   margin-left: 30px;
+}
+
+.footer {
+   position: absolute;
+   bottom: 0;
+}
+
+.grey {
+    height: 4%;
+    font-size: 1.1em;
+}
+
+.profile {
+    height: 25%;
+    background-color: white;
+    text-align: center;
+}
+
+.profile img {
+    height: 50%;
+}
+
+  
+.messages-one {
+    height: 25%;
+    margin-top: 5px;
+    background-color: white;
+ }
+
+ .messages-two {
+    height: 32%;
+    margin-top: 5px;
+    background-color: white;
+ }
+
+ .previous {
+    width: 5%;
+    position: absolute;
+    top: 9%;
+    left: 7%;
+}
