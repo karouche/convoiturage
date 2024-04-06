@@ -140,7 +140,11 @@
    margin-top: 15%;
    margin-left: auto;
    margin-right: auto;
-} 
+}
+
+.footer img {
+    width: 100%;
+}
 
 
 .panel-card {
@@ -166,7 +170,7 @@
 
 .panel-transactions {
   background-color: #f2fadb;
-  height: 50%
+  height: 40%
 }
 
 .panel-transactions table{ 
@@ -190,7 +194,7 @@
 
 td .total {
   text-align: center;
-    width: 49%;
+    width: 60%;
     margin: 0 auto;
     background-color: #00be62;
     padding: 10px;
@@ -212,3 +216,10 @@ td .total {
   top: 9%;
   left: 7%;
 }
+
+table td.amount {
+    text-align: center
+}
+
+
+
