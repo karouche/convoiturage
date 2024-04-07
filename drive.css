@@ -76,10 +76,13 @@
  
 
 .form-panel {
-  /*width: 22%;*/
-  margin-right: auto;
-  margin-left: auto;
-  height: 750px;
+   margin-right: auto;
+   margin-left: auto;
+   height: 100%
+}
+
+.form-panel table {
+    height:10%
 }
 
 .form-buttons {
@@ -127,7 +130,7 @@
 }
 
 .map {
-  height: 45%;
+  height: 32%;
 }
 .map img {
   width: 100%;
@@ -192,12 +195,18 @@ nav ul > li:first-child {
   border-bottom: 2px solid rgb(101, 194, 58);
 }
 
-.footer {  
-  bottom: 0;
+.footer {
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer img {
+    width:45%;
 }
 
-.footer img {
-  width: 100%;
+.footer td {
+    width:20%;
+    text-align: center;
 }
 
   

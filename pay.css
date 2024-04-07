@@ -136,14 +136,18 @@
   margin-top: 0px;
 }
 
-.footer { 
-   margin-top: 15%;
-   margin-left: auto;
-   margin-right: auto;
+ .footer {
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer img {
+    width:45%;
 }
 
-.footer img {
-    width: 100%;
+.footer td {
+    width:20%;
+    text-align: center;
 }
 
 
