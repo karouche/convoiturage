@@ -82,7 +82,7 @@
 }
 
 .form-buttons {
-  height: 15%;
+  height: 30%;
   padding-top: 5%;
 }
 
@@ -114,7 +114,7 @@
 .anchor {
   color: #FFFFFF;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .inline_bloc {      
@@ -187,7 +187,7 @@ nav a:hover{
   border-bottom: 2px solid gold;
 }
 
-nav ul > li:first-child {
+nav a.selected {
   color: orange;
   border-bottom: 2px solid gold;
 }
@@ -196,4 +196,28 @@ nav ul > li:first-child {
   margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
-} 
+}
+
+.footer img {
+    width:100%;
+}
+
+div .inside {
+
+     height: 35%;
+     width: 100%;
+     margin: 0 auto;
+ }
+
+.inside .hr {
+      width:45%;
+      font-size: 1.5em;
+      margin: 0 auto;
+      height: 10%;
+}
+
+.inside .cnv {
+  width: 72%;
+      font-size: 1.3em;
+      margin: 0 auto;
+}
